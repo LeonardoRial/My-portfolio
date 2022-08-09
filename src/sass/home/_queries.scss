@@ -1,0 +1,16 @@
+@media (max-width: 800px) {
+  #home {
+    padding: 0 2rem;
+    & > div {
+      height: 70%;
+
+      & > h1 {
+        font-size: var(--fs-300);
+      }
+
+      & > p {
+        font-size: var(--fs-100);
+      }
+    }
+  }
+}

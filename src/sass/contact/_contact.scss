@@ -1,0 +1,30 @@
+#contact {
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5rem;
+  & > .form {
+    height: 50%;
+    & > form {
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 80%;
+
+      & > input {
+        height: 2rem;
+        width: 30rem;
+      }
+      & > :nth-child(3) {
+        height: 10rem;
+        resize: none;
+      }
+      & > button {
+        background: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+  }
+}

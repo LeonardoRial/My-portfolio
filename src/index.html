@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/observer.js"></script>
+    <script defer src="./js/buregerMenu.js"></script>
+    <script defer src="./js/sectionHighlight.js"></script>
+    <title>Leonardo Campos</title>
+  </head>
+  <body class="grid">
+    <header>
+      <nav class="nav flex">
+        <div class="logo">
+          <span class="uppercase fs-100">LC</span>
+        </div>
+
+        <ul class="navigation-menu flex" role="list">
+          <li role="tablist" class="home" aria-selected="true">
+            <a class="uppercase fs-100" role="tab" href="#home"
+              >Home
+              <span></span>
+            </a>
+          </li>
+          <li role="tablist" class="portfolio" aria-selected="false">
+            <a class="uppercase fs-100" role="tab" href="#portfolio"
+              >Portfolio
+              <span></span>
+            </a>
+          </li>
+          <li role="tablist" class="contact" aria-selected="false">
+            <a class="uppercase fs-100" role="tab" href="#contact"
+              >Contact
+              <span></span>
+            </a>
+          </li>
+        </ul>
+
+        <div class="burger flex">
+          <span class="menu"></span>
+          <span class="menu"></span>
+          <span class="menu"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <article id="home" class="flex">
+        <div class="flex">
+          <p class="fs-300">Hi, I am</p>
+          <h1 class="uppercase fs-400 fc-dark">Leonardo Campos</h1>
+          <p class="fs-200">
+            Web development is my passion! Everything you can view here, I have
+            developed on my own, using my free time. I am hoping to land my
+            first role as web developer, so if you think I will be a good fit
+            for your needs, drop me a message.
+          </p>
+          <a role="link" href="#contact">Contact me</a>
+        </div>
+      </article>
+      <article id="portfolio" class="grid">
+        <div class="project flex">
+          <h2>Space Web</h2>
+          <p>Guided FrontEndMentor design with challenges.</p>
+          <a
+            href="https://spacetravelcompany.netlify.app"
+            target="_blank"
+            role="link"
+            >Link</a
+          >
+        </div>
+        <div class="project flex">
+          <h2>Advice generator</h2>
+          <p>Advice generator, first time learning and using API's</p>
+          <a
+            href="https://advices-generators.netlify.app"
+            target="_blank"
+            role="link"
+            >Link</a
+          >
+        </div>
+        <div class="project flex">
+          <h2>Photography Web</h2>
+          <p>One of my first projects</p>
+          <a
+            href="https://mockphotoweb.netlify.app/"
+            target="_blank"
+            role="link"
+            >Link</a
+          >
+        </div>
+        <div class="project flex">
+          <h2>Weather App</h2>
+          <p>A classic</p>
+          <a
+            href="https://appweathersimple.netlify.app"
+            target="_blank"
+            role="link"
+            >Link</a
+          >
+        </div>
+      </article>
+      <article id="contact" class="flex">
+        <div class="header">
+          <p class="fs-200">Contact me for more info</p>
+        </div>
+        <div class="form">
+          <form
+            class="flex"
+            action="https://formsubmit.co/l.camposrial@gmail.com"
+            method="POST"
+          >
+            <input type="text" name="name" placeholder="Name" required />
+            <input type="email" name="email" placeholder="Email" required />
+            <textarea
+              name="Message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit" role="link">Send</button>
+          </form>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>

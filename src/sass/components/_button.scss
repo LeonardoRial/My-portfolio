@@ -1,0 +1,16 @@
+.button {
+  position: relative;
+  width: 10rem;
+  height: 3rem;
+  color: hsl(var(--white));
+  background-color: hsl(var(--primary-colour));
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: var(--fs-100);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    background-color: hsl(var(--secondary-colour));
+  }
+}

@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  #contact {
+    padding: 0 2rem;
+    min-height: 100vh;
+
+    & > .header {
+      text-align: center;
+      font-size: var(--fs-100);
+    }
+    & > .form {
+      width: 100%;
+      & > form {
+        height: 100%;
+        & > input {
+          align-self: center;
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+        & > textarea {
+          margin-bottom: 3rem;
+        }
+      }
+    }
+  }
+}

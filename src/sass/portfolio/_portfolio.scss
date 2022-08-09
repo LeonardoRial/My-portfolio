@@ -1,0 +1,14 @@
+#portfolio {
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin-bottom: 5rem;
+
+  & > .project {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7rem 5rem;
+  }
+}
