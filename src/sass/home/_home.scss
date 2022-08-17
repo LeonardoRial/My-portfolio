@@ -29,6 +29,10 @@
     }
     & > :nth-child(4) {
       transition: all 4s ease-in-out;
+      margin-bottom: 2rem;
+    }
+    & > :nth-child(5) {
+      transition: all 5s ease-in-out;
     }
 
     & > * {
